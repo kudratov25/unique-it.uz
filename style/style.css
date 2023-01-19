@@ -1,0 +1,289 @@
+html,body{
+    background-color: #fff !important;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+h2{
+    font-size:40px ;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+p {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+}
+.dark{
+    color: rgb(33, 33, 33);
+}
+.darker{
+  color:  rgb(78, 76, 76);
+}
+.white{
+    color: white;
+}
+.roboto{
+    font-family: 'Roboto',sans-serif;
+}
+.roboto-mono{
+    font-family: 'Roboto Mono', monospace;
+}
+/* 
+.nav-hover-dark{
+   transition: .5s all;
+}
+.nav-hover-dark:hover{
+    background: linear-gradient(0deg, rgba(59,82,84,1) 10%, rgba(7,43,45,1) 80%) !important;
+
+} */
+
+/* scroll down hide function css */
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+    background: rgba(33, 33, 33, .5) !important;
+  }
+
+nav ul li a {
+    color: white !important;
+    padding: 15px 20px !important;
+    padding-left: 0px !important;
+    margin-right: 20px;
+    font-size: 15px;
+
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.home-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.skill_home {
+    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), rgb(169, 20, 63), rgba(255, 255, 255, 0)) repeat scroll 0 0;
+    position: relative;
+    display: inline-block;
+    padding: 5px 40px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.skill_home>li{
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+.skill_home>li:last-child{
+    border: none;
+
+}
+.skill_home>li:first-child{
+    padding-left: 10px;
+}
+.social_home li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.bg-img{
+    background-image: url(../images/programmer.webp);
+    background-size: cover;
+    height: 100vh;
+}
+#service .box{
+    background-color: rgb(246,246,246);
+}
+#service .box:hover{
+   cursor: pointer;
+}
+#service .num{
+    background-color: #E8E8E8;
+    width: 50px;
+    height: 50px;
+}
+#service a {
+    text-decoration: none;
+}
+#service a:focus{
+    color: rgb(33,33,33);
+}
+
+
+
+
+
+/* our work */
+
+.member-info{
+  position: relative;
+  background-color: #ddd;
+  width: 80%;
+  margin-top: -45px;
+}
+.member-info h4, .member-info p{
+  color: rgb(42, 93, 235);
+  margin: 0px;
+  margin-bottom: 2px;
+}
+.member-info p{
+  font-size: 15px;
+}
+
+/* contact section */
+.bg-form{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+/*==========================
+        12.footer
+============================*/
+
+.footer_detail {
+    background-color: #050e0e;
+}
+
+.subcribe-newslatter input {
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 17px;
+    color: #fff !important;
+    border: none;
+    outline: none !important;
+    padding-right: 150px;
+    padding-left: 30px;
+    border-radius: 30px;
+    background-color: rgba(241, 241, 241, 0.05);
+}
+
+.subcribe-newslatter button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 9px 30px;
+}
+
+.subcribe-newslatter form {
+    max-width: 550px;
+}
+
+.footer_about p {
+    max-width: 680px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_detail ul.footer_menu_list li a:hover {
+    color: #a9143f;
+    transition: all 0.3s;
+}
+
+.footer_detail ul.footer_menu_list li a {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 4px 0;
+    text-decoration: none !important;
+}
+
+.footer_detail .fot_social .social-icon {
+    border: 2px solid #868e96;
+    border-radius: 0px 10px 10px 10px;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.footer_detail .fot_social .social-icon:hover {
+    border-color: #a9143f;
+    color: #a9143f !important;
+}
+
+.footer_detail .footer_logo {
+    height: 34px;
+}
+
+.footer_detail .copy-rights {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_detail .fot_bor {
+    height: 2px;
+    background: #112121;
+    width: 100%;
+}
+
+
+
+
+
+
+/* responsive screen */
+
+@media (min-width:768px) and (max-width:1023px) {
+   
+}
+/* for mobile phones */
+@media (max-width:767px){
+     .home-title h1{
+        font-size: 35px;
+    }
+    .skill_home{
+        width: 100%;
+        margin-top: 65px !important;
+        width: 150%;
+
+    }
+    .skill_home>li{
+        border: none;
+    }
+}
